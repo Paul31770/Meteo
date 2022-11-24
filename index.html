@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <title>Météo</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #jsp{
+            margin: auto;
+            max-width: 230px;
+        }
+       
+        #res{
+           
+            max-width: 230px;
+            height: 240px;
+            margin: auto;
+            margin-top: 7px;
+        }
+        p{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            margin: 0;
+            margin-top: 15px;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        #erreur{
+            text-align: center;
+            display: none;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <h1>☀️Météo⛈️</h1>
+    <div id="jsp">
+    <form>
+    <input id="input" autofocus>
+    <button id="button" type="submit" >Rechercher</button>
+    </form>
+    <div id="erreur">La ville entrée n'est pas connue</div>
+    </div>
+    <div id="res">
+
+    </div>
+</body>
+</html>
